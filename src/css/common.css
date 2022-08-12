@@ -16,3 +16,15 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.timer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.value {
+  color: blue;
+  border-radius: 50px;
+  margin-left: 15px;
+}

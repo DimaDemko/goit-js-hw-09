@@ -22,12 +22,3 @@ stopp.addEventListener('click', () => {
   stopp.setAttribute('disabled', 'disable');
 });
 
-function isIsogram(str) {
-  const lowerCaseString = str.toLowerCase();
-  let string = '';
-  for (i = str.length - 1; i >= 0; i -= 1) {
-    string += str[i];
-  }
-  console.log(string);
-}
-console.log(isIsogram('wordisbig'));

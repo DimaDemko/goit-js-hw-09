@@ -9,6 +9,7 @@ function getRandomHexColor() {
 function bgcolour() {
   body.style.backgroundColor = getRandomHexColor();
 }
+let timerStartId;
 
 start.addEventListener('click', () => {
   timerStartId = setInterval(bgcolour, 1000);
@@ -21,4 +22,3 @@ stopp.addEventListener('click', () => {
   start.removeAttribute('disabled');
   stopp.setAttribute('disabled', 'disable');
 });
-
